@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "948626970665",
+    "firebase_url": "https://isamisa-15351.firebaseio.com",
+    "project_id": "isamisa-15351",
+    "storage_bucket": "isamisa-15351.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:948626970665:android:9d0f1ceb66d4d0a55ee438",
+        "android_client_info": {
+          "package_name": "com.proyecto.isamisa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "948626970665-va6b7c08qd2qemqremib2lbi72ktk866.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.proyecto.isamisa",
+            "certificate_hash": "65567c6377ae6018945d7564080dae3fa6c37e9d"
+          }
+        },
+        {
+          "client_id": "948626970665-c5uujq4kqmot7e3tbc8fs4c1iuv60231.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyABCm2GutFF2oK9vvjxQwwro5DBLxBkpBk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "948626970665-c5uujq4kqmot7e3tbc8fs4c1iuv60231.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.proyecto.isamisa.ui.usuario.UsuarioFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_usuario" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.proyecto.isamisa.ui.Persona.PersonaFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_persona" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.proyecto.isamisa.ui.Producto.ProductoshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_producto" />
+
+    <fragment
+        android:id="@+id/nav_solicitud"
+        android:name="com.proyecto.isamisa.ui.Solicitudes.SolicitudesShowFragment"
+        android:label="Solicitud"
+        tools:layout="@layout/fragment_solicitudes"/>
+    <fragment
+        android:id="@+id/nav_transaccion"
+        android:name="com.proyecto.isamisa.ui.Transacciones.TransaccionesShowFragment"
+        android:label="Transaccion"
+        tools:layout="@layout/fragment_transacciones"/>
+</navigation>
